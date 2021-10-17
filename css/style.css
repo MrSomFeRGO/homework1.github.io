@@ -10,6 +10,10 @@ body {
    margin: 0 auto;
 }
 
+.about {
+   margin: 0 0 32px 0;
+}
+
 .about>.container>h1 {
    margin: 20px 0 30px 20px;
 }
@@ -23,7 +27,7 @@ body {
 }
 
 .link>a {
-   margin: 0px 0px 20px 20px;
+   margin: 0 0 20px 20px;
    color: #FF4646;
 }
 
@@ -38,7 +42,7 @@ body {
 }
 
 .about>.container>.photos>img:first-child {
-   margin: 0px 25px 25px 20px;
+   margin: 0 25px 25px 20px;
 }
 
 .about>.container>h2 {
@@ -74,8 +78,8 @@ body {
 }
 
 .footer>.container>p {
-   padding: 16px 0px 16px 0;
-   margin: 32px 0 0 0;
+   padding: 16px 0 16px 0;
+   margin: 0;
    text-align: center;
    color: white;
    font-size: 16px;
@@ -103,7 +107,7 @@ body {
 }
 
 .nav_link {
-   margin: 30px 0px 30px 20px;
+   margin: 30px 0 30px 20px;
    color: white;
 }
 
@@ -130,17 +134,18 @@ header {
 
 .form {
    background-color: #E2E2E2;
-   margin: 0px auto;
+   margin: 0 auto;
    width: 655px;
    height: 385px;
    border-radius: 50px;
-
+   margin-bottom: 135px;
 }
 
 .form>p {
    padding: 20px 0 11px 85px;
    margin: 0;
 }
+
 .form>input {
    margin: 0 52px;
    width: 550px;
@@ -150,6 +155,7 @@ header {
    outline: none;
    border: none;
 }
+
 .form>button {
    width: 275px;
    height: 38px;
@@ -159,9 +165,68 @@ header {
    border: none;
    margin: 23px 189px;
 }
+
 .form>button>span {
    color: white;
 }
+
 .form>button>span>img {
    margin-left: 10px;
+}
+
+.sidebar {
+   width: 265px;
+   height: 945px;
+   border: 2px solid #000000;
+   box-sizing: border-box;
+   padding: 13px 25px;
+}
+
+.posts>p {
+   margin: 0 0 13px 0;
+}
+
+.posts>.post {
+   margin: 0 0 13px 0;
+   display: flex;
+
+}
+
+.posts>.post>p {
+   margin: 0 0 0 10px;
+   font-size: 16px;
+}
+
+.post_logo {
+   width: 50px;
+   height: 50px;
+   background: #C4C4C4;
+   flex-shrink: 0;
+}
+
+.ad>p {
+   margin: 0 0 16px 0;
+}
+
+.ad_logo {
+   width: 216px;
+   height: 225px;
+   background: #C4C4C4;
+   margin-bottom: 45px;
+}
+
+.social_logos {
+   display: flex;
+   justify-content: space-around;
+}
+
+.social>p {
+   margin: 0 0 16px 0;
+}
+
+.social_logo {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background: #C4C4C4;
 }
