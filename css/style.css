@@ -177,6 +177,7 @@ header {
 .blog>.container {
    display: flex;
 }
+
 .sidebar {
    width: 265px;
    height: 945px;
@@ -233,6 +234,7 @@ header {
    border-radius: 50%;
    background: #C4C4C4;
 }
+
 .content {
    display: flex;
    justify-content: space-around;
@@ -240,30 +242,37 @@ header {
    height: 935px;
    padding: 10px 0 0 0;
 }
+
 .content_post1>img {
    width: 290px;
    height: 390px;
 }
-.content_post1 > * {
+
+.content_post1>* {
    width: 290px;
    margin: 0 0 10px 0;
 }
+
 .content_post2>img {
    width: 215px;
    height: 188px;
 }
-.content_post2> * {
+
+.content_post2>* {
    width: 215px;
    margin: 0 0 10px 0;
 }
+
 .content_post3>img {
    width: 450px;
    height: 250px;
 }
-.content_post3> * {
+
+.content_post3>* {
    width: 450px;
    margin: 0 0 10px 0;
 }
+
 .content_post2>img:last-child {
    width: 215px;
    height: 150px;
