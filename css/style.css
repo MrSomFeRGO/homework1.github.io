@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html,
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   width: 1280px;
+   margin: 0 auto;
+}
+
+.about>.container>h1 {
+   margin: 20px 0 30px 20px;
+}
+
+.about>.container>p {
+   margin: 0 20px 16px 20px;
+}
+
+.link {
+   display: flex;
+}
+
+.link>a {
+   margin: 0px 0px 20px 20px;
+   color: #FF4646;
+}
+
+.about>.container>.photos {
+   display: flex;
+}
+
+.about>.container>.photos>img {
+   width: 280px;
+   height: 176px;
+   margin-bottom: 25px;
+}
+
+.about>.container>.photos>img:first-child {
+   margin: 0px 25px 25px 20px;
+}
+
+.about>.container>h2 {
+   margin: 0 0 15px 20px;
+}
+
+.films {
+   display: flex;
+   margin-bottom: 32px;
+}
+
+.films>div>img {
+   width: 200px;
+   height: 200px;
+   margin: 0 0 10px 15px;
+}
+
+.films>div>img:first-child {
+   margin: 0 0 10px 20px;
+}
+
+.films>div>p {
+   margin: 0 0 0 20px;
+}
+
+.films>div>p:last-child {
+   margin: 10px 0 0 20px;
+}
+
+.about>.container>a {
+   margin: 0 0 0 20px;
+   color: #FF4646;
+}
+
+.footer>.container>p {
+   padding: 16px 0px 16px 0;
+   margin: 32px 0 0 0;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+}
+
+.footer>.container {
+   background-color: #111111;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav_item {
+   display: flex;
+}
+
+.logo {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: blueviolet;
+   margin: 15px 0;
+}
+
+.nav_link {
+   margin: 30px 0px 30px 20px;
+   color: white;
+}
+
+header {
+   background-color: #111111;
+}
+
+.main>.container>.photos>img {
+   width: 380px;
+   height: 225px;
+   border-radius: 20px;
+}
+
+.main>.container>.photos {
+   display: flex;
+   justify-content: space-around;
+   margin: 50px 48px;
+}
+
+.main>.container>h1 {
+   text-align: center;
+   margin: 0 0 50px 0;
+}
+
+.form {
+   background-color: #E2E2E2;
+   margin: 0px auto;
+   width: 655px;
+   height: 385px;
+   border-radius: 50px;
+
+}
+
+.form>p {
+   padding: 20px 0 11px 85px;
+   margin: 0;
+}
+.form>input {
+   margin: 0 52px;
+   width: 550px;
+   height: 50px;
+   border-radius: 50px;
+   color: white;
+   outline: none;
+   border: none;
+}
+.form>button {
+   width: 275px;
+   height: 38px;
+   border-radius: 50px;
+   background: #FF4646;
+   outline: none;
+   border: none;
+   margin: 23px 189px;
+}
+.form>button>span {
+   color: white;
+}
+.form>button>span>img {
+   margin-left: 10px;
+}
