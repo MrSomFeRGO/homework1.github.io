@@ -6,8 +6,12 @@ body {
 }
 
 .container {
-   width: 1280px;
+   /* width: 1280px;
+   margin: 0 auto; */
+   /* Лучше делать .container как я написал. Избегай значений фикисрованной ширины */
+   width: 100%;
    margin: 0 auto;
+   max-width: 1280px;
 }
 
 .about {
@@ -238,12 +242,35 @@ header {
 .content {
    display: flex;
    justify-content: space-around;
-   width: 1015px;
-   height: 935px;
+   width: 100%;
+   /* width: 1015px;
+   height: 935px; */
+   /* не стоит задавать высоту контента, там ведь может быть и 5000px. Мы этого заранее не знаем.
+      Да и ширина тут не надо. Блоки сами займут необоходимую ширину.
+      Если будет фиксированная ширина, но экран меньше 1015px? То начнет рушится и вылазить за экран.
+   */
    padding: 10px 0 0 0;
 }
 
-.content_post1>img {
+.column img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.column-1 {
+   width: 29%;
+}
+
+.column-2 {
+   width: 21%;
+}
+
+.column-3 {
+   width: 44%;
+}
+
+/* .content_post1>img {
    width: 290px;
    height: 390px;
 }
@@ -276,4 +303,4 @@ header {
 .content_post2>img:last-child {
    width: 215px;
    height: 150px;
-}
+} */
